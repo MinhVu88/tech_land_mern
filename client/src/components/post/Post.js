@@ -26,7 +26,7 @@ const Post = () => {
   return loading || post === null ? (
     <Spinner />
   ) : (
-    <section className="container">
+    <>
       <Link to="/posts" className="btn">
         Back to Posts
       </Link>
@@ -37,7 +37,7 @@ const Post = () => {
           <CommentItem key={comment._id} comment={comment} postId={post._id} />
         ))}
       </div>
-    </section>
+    </>
   );
 };
 

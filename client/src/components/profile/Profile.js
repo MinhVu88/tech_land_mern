@@ -35,7 +35,7 @@ const Profile = () => {
   }, [dispatch, profileUserId]);
 
   return (
-    <section className="container">
+    <>
       {currentProfile === null || profileLoading ? (
         <Spinner />
       ) : (
@@ -96,7 +96,7 @@ const Profile = () => {
           </div>
         </>
       )}
-    </section>
+    </>
   );
 };
 

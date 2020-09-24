@@ -39,7 +39,7 @@ const Education = ({ history }) => {
   };
 
   return (
-    <section className="container">
+    <>
       <h1 className="large text-primary">Add Your Education</h1>
       <p className="lead">
         <i className="fas fa-code-branch"></i> Add any school you have attended
@@ -133,7 +133,7 @@ const Education = ({ history }) => {
           Go Back
         </Link>
       </form>
-    </section>
+    </>
   );
 };
 

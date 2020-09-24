@@ -31,7 +31,7 @@ const WorkExperiences = ({ history }) => {
   };
 
   return (
-    <section className="container">
+    <>
       <h1 className="large text-primary">Add An Experience</h1>
       <p className="lead">
         <i className="fas fa-code-branch"></i> Add any developer/programming
@@ -129,7 +129,7 @@ const WorkExperiences = ({ history }) => {
           Go Back
         </Link>
       </form>
-    </section>
+    </>
   );
 };
 

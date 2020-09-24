@@ -24,7 +24,7 @@ const Dashboard = () => {
   return loading && currentProfile === null ? (
     <Spinner />
   ) : (
-    <section className="container">
+    <>
       <h1 className="large text-primary">Dashboard</h1>
       <p className="lead">
         <i className="fas fa-user"> Welcome {user && user.name}</i>
@@ -62,7 +62,7 @@ const Dashboard = () => {
           </div>
         </>
       )}
-    </section>
+    </>
   );
 };
 
